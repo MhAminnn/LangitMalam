@@ -1,0 +1,145 @@
+.containerr {
+  margin-top: 20px;
+  padding-right: 10px 10px;
+  display: flex;
+  justify-content: center; /* Memusatkan .lk-utama secara horizontal */
+  align-items: center;     /* Memusatkan .lk-utama secara vertikal jika perlu */
+  
+}
+
+.lk-utama {
+  width: 320px;           /* Lebar tetap untuk .lk-utama */
+  text-align: center;     /* Memastikan gambar terpusat dalam .lk-utama */
+}
+
+.lk-utama img {
+  width: 100%;            /* Mengatur gambar agar menyesuaikan lebar kontainer */
+  height: auto;           /* Menjaga rasio aspek gambar */
+}
+
+
+
+/* Gaya umum untuk gambar */
+.image-container {
+  position: relative;
+  width: 350px; /* Sesuaikan dengan ukuran gambar */
+  height: 350px; /* Sesuaikan dengan ukuran gambar */
+  margin-bottom: 20px; /* Jarak antar gambar */
+}
+
+/* Gaya untuk gambar */
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+  display: block;
+}
+
+/* Gaya untuk tombol download */
+.btn-download {
+  display: block;
+  width: 100.1%;
+  height: 50px; /* Sesuaikan tinggi tombol */
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  box-sizing: border-box; /* Memastikan ukuran kotak termasuk padding dan border */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Gaya hover untuk tombol download */
+.btn-download:hover {
+  background-color: #0056b3;
+}
+
+.loader{
+        display: block;
+        position: relative;
+        height: 12px;
+        width: 80%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .loader:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0;
+        background: #2F41FF;
+        animation: 6s prog ease-in infinite;
+      }
+      
+      @keyframes prog {
+        to  {   width: 100%;}
+      }
+      
+      
+      
+      .no-watermark {
+  width: 380px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 15px;
+}
+
+.no-watermark img {
+  width: 400px;
+  padding: 10px;
+}
+
+/* footer.css */
+footer {
+  margin-top: 30px;
+  opacity: 0.7;
+  width: 100%;
+  background-color: #002dff; /* Blue background for footer */
+  color: #fff; /* White text color */
+  text-align: center; /* Center align text and icons */
+  padding: 20px; /* Add padding around the footer */
+}
+
+.icon-container {
+  display: flex; /* Flexbox to align icons horizontally */
+  justify-content: center; /* Center the icons horizontally */
+  gap: 3px; /* Space between icons */
+  margin-bottom: 8px; /* Space between icons and credits */
+}
+
+.icon-link {
+  display: inline-block; /* Make each icon a block level element */
+  padding: 10px; /* Space inside the icon container */
+  border-radius: 50%; /* Rounded corners for the container */
+  background-color: #002dff; /* Blue background for the container */
+}
+
+.icon-link:hover {
+  background-color: black;
+}
+
+.icon-link svg {
+  width: 35px; /* Size of the icon */
+  height: 35px; /* Size of the icon */
+}
+
+.credits {
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px; /* Font size for the credits */
+}
+
+.endd {
+  width: 350px;
+  padding-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center
+}
+
+

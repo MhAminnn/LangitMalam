@@ -1,0 +1,279 @@
+/* CSS */
+body {
+  background-color: #F8F9FB;
+}
+
+.main-konten {
+  background-color: #fff;
+  border-radius: 1px;
+  display: flex;
+ color: #1A1A18;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.main-konten img {
+  max-width: 100%;
+  height: auto;
+}
+
+.b-jdl {
+  color: blue;
+  background-color: white;
+  font-size: 14px;
+  -webkit-box-shadow: -18px 2px 2px -25px #dddddd;
+  -moz-box-shadow: -18px 2px 2px -25px #dddddd;
+  box-shadow: -18px 2px 2px -25px #dddddd;
+}
+
+.main-konten p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.nav-jdl {
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 700px;
+}
+
+/* CSS */
+.card {
+  
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 50%;
+  background-color: #fff;
+  padding: 1.5rem;
+  color: #454545;
+  line-height: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 90%; /* Menyusutkan lebar card */
+  margin: 0 auto; /* Memusatkan card secara horizontal */
+}
+
+
+
+.card:hover {
+  background-color: #E9EBF9;
+}
+
+
+
+@media (min-width: 640px) {
+  .card {
+    max-width: 80%; /* Lebar card di perangkat yang lebih besar */
+  }
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+.icon svg {
+  fill: #6970d5;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.625rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.25rem;
+}
+
+.button {
+  background-color: #6970d5;
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555ee6;
+}
+
+.heart {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 1.5rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.heart:hover {
+  color: #6970d5;
+}
+
+
+.judul-utama {
+  font-family: Plus_Jakarta_Sans, Roboto, -apple-system, Segoe UI, sans-serif;
+font-size: 30px;
+padding: 15px;
+line-height: 32px;
+text-align: left;
+letter-spacing: 1.2px;
+word-spacing: -1.4px;
+color: #001122; /* Contoh warna hex yang benar */
+font-weight: 700; /* Font weight bold */
+
+
+}
+
+.asik {
+  color: #002dff;
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.end {
+  justify-content: center;
+  display: flex;
+
+  
+}
+
+.salam {
+ font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 22px;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 700px;
+  
+  
+  
+}
+
+
+/* footer.css */
+footer {
+  opacity: 0.7;
+  background-color: #002dff; /* Blue background for footer */
+  color: #ffffff; /* White text color */
+  text-align: center; /* Center align text and icons */
+  padding: 20px; /* Add padding around the footer */
+}
+
+.icon-container {
+  display: flex; /* Flexbox to align icons horizontally */
+  justify-content: center; /* Center the icons horizontally */
+  gap: 3px; /* Space between icons */
+  margin-bottom: 8px; /* Space between icons and credits */
+}
+
+.icon-link {
+  display: inline-block; /* Make each icon a block level element */
+  padding: 10px; /* Space inside the icon container */
+  border-radius: 50%; /* Rounded corners for the container */
+  background-color: #002dff; /* Blue background for the container */
+}
+
+.icon-link:hover {
+  background-color: black;
+}
+
+.icon-link svg {
+  width: 35px; /* Size of the icon */
+  height: 35px; /* Size of the icon */
+}
+
+.credits {
+  font-family: Space Grotesk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px; /* Font size for the credits */
+}
+
+
+.join {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    text-align: center;
+    font-size: 0.875rem; /* 14px */
+    width: 200px; /* Adjust width as needed */
+    height: 2.5rem; /* Adjust height as needed */
+}
+
+.btnn {
+    background-color: #007bff; /* Facebook blue */
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    
+    cursor: pointer;
+    font-size: 0.875rem; /* 14px */
+    height: 2.5rem; /* Same height as input */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnn:hover {
+    background-color: black;
+}
+
+
+/* Tambahkan aturan ini ke file CSS-mu */
+
+.swap input[type="checkbox"] {
+    display: none;
+}
+
+/* Jika perlu, atur styling swap-on dan swap-off */
+.swap-on, .swap-off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.swap-on img, .swap-off img {
+    width: 400px; /* Atur sesuai kebutuhan */
+    height: auto;
+}
+
+/* Import Tailwind CSS if needed */
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+.alert {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: orangered; /* Gray-800 */
+  color: white;
+  font-style: bold;
+  border-radius: 0.5rem;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
